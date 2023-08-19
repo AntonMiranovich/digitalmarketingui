@@ -59,6 +59,7 @@ main {
   display: flex;
   width: 1200px;
   margin-left: 120px;
+  margin-bottom: 200px;
 }
 
 main .img-main {
@@ -68,4 +69,149 @@ main .img-main {
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 50px;
+}
+
+.info {
+  margin-left: 120px;
+}
+
+.info h1 {
+  width: 450px;
+  height: 100px;
+  margin: 15px 0 0 0;
+  font: 400 40px Oswald;
+  color: #000;
+}
+
+.info p {
+  margin-top: 48px;
+  width: 488px;
+  height: 52px;
+  font: 400 15px Roboto;
+}
+
+.info-support {
+  width: 500px;
+  margin-top: 57px;
+  border-radius: 20px;
+}
+
+.info-support .div1 {
+  border: 1px solid #e7e7e7;
+}
+
+.info-support .div1 div {
+  display: flex;
+}
+
+.info-support .div2 div {
+  display: flex;
+}
+
+.info-support .div3 div {
+  display: flex;
+}
+
+.info-support .div4 div {
+  display: flex;
+}
+
+.btn-plus1 {
+  background-image: url(./assets/Frame.png);
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 32px 32px 32px 158px;
+  cursor: pointer;
+}
+
+.info-support .div2 div h3 {
+  color: #000;
+  font: 400 16px Oswald;
+  margin: 30px 0 0 40px;
+}
+
+.info-support .div1 div h3 {
+  color: #000;
+  font: 400 16px Oswald;
+  margin: 30px 0 0 40px;
+}
+
+.info-support .div3 div h3 {
+  color: #000;
+  font: 400 16px Oswald;
+  margin: 30px 0 0 40px;
+}
+
+.info-support .div4 div h3 {
+  color: #000;
+  font: 400 16px Oswald;
+  margin: 30px 0 0 40px;
+}
+
+.btn-plus2 {
+  background-image: url(./assets/Frame.png);
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 32px 32px 32px 108px;
+  cursor: pointer;
+}
+
+.btn-plus3 {
+  background-image: url(./assets/Frame.png);
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 32px 32px 32px 161px;
+  cursor: pointer;
+}
+
+.btn-plus4 {
+  background-image: url(./assets/Frame.png);
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 32px 32px 32px 206px;
+  cursor: pointer;
+}
+
+.info-support .div1 p {
+  font: 400 16px Oswald;
+  color: #000;
+  width: 250px;
+  height: auto;
+  margin: 0 0 11px 62px;
+  display: none;
+}
+
+.info-support .div2 p {
+  font: 400 16px Oswald;
+  color: #000;
+  width: 250px;
+  height: auto;
+  margin: 0 0 11px 62px;
+  display: none;
+}
+
+.info-support .div3 p {
+  font: 400 16px Oswald;
+  color: #000;
+  width: 250px;
+  height: auto;
+  margin: 0 0 11px 62px;
+  display: none;
+}
+
+.info-support .div4 p {
+  font: 400 16px Oswald;
+  color: #000;
+  width: 250px;
+  height: auto;
+  margin: 0 0 11px 62px;
+  display: none;
 }
