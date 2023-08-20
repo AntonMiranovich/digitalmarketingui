@@ -42,6 +42,10 @@ header nav p:not(:last-child) {
   margin-right: 25px;
 }
 
+header nav p:hover {
+  color: #0013e9;
+}
+
 header .btn {
   width: 193px;
   height: 23px;
@@ -53,6 +57,10 @@ header .btn {
   margin: 13px 0 0 450px;
   text-align: center;
   padding: 15px 0;
+}
+
+header .btn:hover {
+  background: #002c83;
 }
 
 main {
